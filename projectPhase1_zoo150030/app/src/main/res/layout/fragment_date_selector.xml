@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="dateSelector"
+    android:orientation="vertical">
+
+    <DatePicker
+        android:id="@+id/dateSelect"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_marginEnd="4sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@id/dateSelect"
+        android:layout_marginStart="12sp"
+        >
+
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/small_text"
+            android:text="@string/okButton"
+            />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_text"
+            android:text="@string/cancelButton"
+            android:layout_marginStart="28sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

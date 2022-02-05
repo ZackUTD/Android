@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".contactDetails"
+    tools:showIn="@layout/activity_contact_details">
+
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details_title"
+        android:textSize="@dimen/medium_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16sp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/newContactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_title"
+        android:textSize="@dimen/medium_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16sp"
+        android:visibility="invisible"
+        />
+
+
+    <TextView
+        android:id="@+id/FTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fHeader"
+        android:textSize="@dimen/xsmall_text"
+        app:layout_constraintTop_toBottomOf="@id/newContactTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8sp"
+        />
+
+    <EditText
+        android:id="@+id/First"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:inputType="text"
+        android:hint="@string/fHint"
+        app:layout_constraintTop_toBottomOf="@id/FTitle"
+        app:layout_constraintLeft_toLeftOf="@id/FTitle"
+
+        />
+
+    <TextView
+        android:id="@+id/LTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lHeader"
+        android:textSize="@dimen/xsmall_text"
+        app:layout_constraintTop_toBottomOf="@id/First"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8sp"
+        />
+
+
+    <EditText
+        android:id="@+id/Last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:inputType="text"
+        android:hint="@string/lHint"
+        app:layout_constraintTop_toBottomOf="@id/LTitle"
+        app:layout_constraintLeft_toLeftOf="@id/LTitle"
+        />
+
+    <TextView
+        android:id="@+id/NumTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numHeader"
+        android:textSize="@dimen/xsmall_text"
+        app:layout_constraintTop_toBottomOf="@id/Last"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="8sp"
+        />
+
+    <EditText
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:inputType="phone"
+        android:hint="@string/numHint"
+        app:layout_constraintTop_toBottomOf="@id/NumTitle"
+        app:layout_constraintLeft_toLeftOf="@id/NumTitle"
+        />
+
+    <TextView
+        android:id="@+id/DoBTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DoBHeader"
+        android:textSize="@dimen/xsmall_text"
+        app:layout_constraintLeft_toLeftOf="@id/Number"
+        app:layout_constraintTop_toBottomOf="@id/Number"
+        android:layout_marginTop="8sp"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/DoBFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/DoBTitle"
+        app:layout_constraintTop_toBottomOf="@id/DoBTitle"
+        >
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/DofCTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DofCHeader"
+        android:textSize="@dimen/xsmall_text"
+        app:layout_constraintLeft_toLeftOf="@id/DoBFrame"
+        app:layout_constraintTop_toBottomOf="@id/DoBFrame"
+        android:layout_marginTop="8sp"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/DofCFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/DofCTitle"
+        app:layout_constraintTop_toBottomOf="@id/DofCTitle"
+        >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/AddrTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/xsmall_text"
+        android:text="@string/addr"
+        app:layout_constraintLeft_toLeftOf="@id/DofCFrame"
+        app:layout_constraintTop_toBottomOf="@id/DofCFrame"
+        android:layout_marginTop="8sp"
+        />
+
+    <EditText
+        android:id="@+id/addrLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:hint="@string/addrHint1"
+        app:layout_constraintLeft_toLeftOf="@id/AddrTitle"
+        app:layout_constraintTop_toBottomOf="@id/AddrTitle"
+        />
+
+    <EditText
+        android:id="@+id/addrLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:hint="@string/addrHint2"
+        app:layout_constraintLeft_toLeftOf="@id/AddrTitle"
+        app:layout_constraintTop_toBottomOf="@id/addrLine1"
+        />
+
+
+    <TextView
+        android:id="@+id/CityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/xsmall_text"
+        android:text="@string/city"
+        app:layout_constraintLeft_toLeftOf="@id/addrLine2"
+        app:layout_constraintTop_toBottomOf="@id/addrLine2"
+        android:layout_marginTop="8sp"
+        />
+
+    <TextView
+        android:id="@+id/StateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/xsmall_text"
+        android:text="@string/state"
+        app:layout_constraintLeft_toRightOf="@id/CityTitle"
+        app:layout_constraintTop_toTopOf="@id/CityTitle"
+        android:layout_marginStart="140sp"
+        />
+
+    <TextView
+        android:id="@+id/ZipTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/xsmall_text"
+        android:text="@string/zip"
+        app:layout_constraintLeft_toRightOf="@id/StateTitle"
+        app:layout_constraintTop_toTopOf="@id/StateTitle"
+        android:layout_marginStart="32sp"
+        />
+
+
+    <EditText
+        android:id="@+id/City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:hint="@string/cityHint"
+        app:layout_constraintLeft_toLeftOf="@id/CityTitle"
+        app:layout_constraintTop_toBottomOf="@id/CityTitle"
+        />
+
+    <EditText
+        android:id="@+id/State"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:hint="@string/stateHint"
+        app:layout_constraintLeft_toLeftOf="@id/StateTitle"
+        app:layout_constraintTop_toBottomOf="@id/StateTitle"
+        />
+
+    <EditText
+        android:id="@+id/Zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:hint="@string/zipHint"
+        android:inputType="number"
+        app:layout_constraintLeft_toLeftOf="@id/ZipTitle"
+        app:layout_constraintTop_toBottomOf="@id/ZipTitle"
+        />
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="16sp"
+        >
+
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_button"
+            android:textSize="@dimen/small_text"
+            android:layout_marginEnd="32sp"
+            android:onClick="onEditClick"
+            android:clickable="false"
+            />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button"
+            android:textSize="@dimen/small_text"
+            android:onClick="onSaveClick"
+            android:clickable="false"
+            />
+
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delBtn"
+            android:textSize="@dimen/small_text"
+            android:layout_marginStart="32sp"
+            android:onClick="onDeleteClick"
+            android:clickable="false"
+            />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/medium_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

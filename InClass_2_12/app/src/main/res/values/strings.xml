@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InClass_2_12</string>
+    <string name="action_settings">Settings</string>
+    <string name="urlInput">Image URL</string>
+    <string name="buttonText">Go</string>
+    <string name="imgDesc">Image</string>
+</resources>

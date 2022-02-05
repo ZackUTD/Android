@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">zoo150030Asg1A</string>
+    <string name="action_settings">Settings</string>
+    <string name="fruit1">Apple</string>
+    <string name="fruit2">Banana</string>
+    <string name="fruit3">Grape</string>
+    <string name="veg1">Lettuce</string>
+    <string name="fruit4">Watermelon</string>
+    <string name="listButton">Show List</string>
+    <string name="title_activity_click_list">clickListActivity</string>
+
+</resources>

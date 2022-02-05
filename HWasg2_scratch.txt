@@ -1,0 +1,7 @@
+Asg2 and list_adapter_test are both currently up to date -- same exact code as of 02-19-2019. 
+
+Plan for future: I would like to take the current set up and modify it just a little as follows:
+
+I'm going to read each column of the text file into its own array (one for dates, one for Highs, Lows, etc.) instead of rows. Then, in the adapter class, we'll slap each of those columns into TextViews that are nested inside of a vertical linearLayout. (Such that each TextView is left or right of the others.) Then, keeping the variable width idea the same, we'll encase that vertical linear layout in a horizontal scrollView, thus allowing left/right scrolling between columns. Theoretically, this should allow me to achieve that perfect vision I've had for this project. 
+
+Good luck!

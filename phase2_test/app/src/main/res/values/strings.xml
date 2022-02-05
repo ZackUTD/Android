@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">projectPhase1_zoo150030</string>
+    <string name="option1">Add Contact</string>
+    <string name="option2">Delete All Contacts</string>
+    <string name="title_activity_contact_details">contactDetails</string>
+    <string name="main_title">Contacts</string>
+    <string name="errorText">Error: Bad datafile connection</string>
+    <string name="listHeading">Last, First</string>
+    <string name="details_title">Contact Details</string>
+    <string name="new_title">New Contact</string>
+    <string name="fHeader">First Name</string>
+    <string name="lHeader">Last Name</string>
+    <string name="numHeader">Phone Number</string>
+    <string name="DoBHeader">Date of Birth</string>
+    <string name="DofCHeader">Date of First Contact</string>
+    <string name="fHint">enter first name</string>
+    <string name="lHint">enter last name</string>
+    <string name="numHint">enter phone number</string>
+    <string name="DoBHint">enter Date of Birth</string>
+    <string name="DofCHint">enter DofC</string>
+    <string name="edit_button">Edit</string>
+    <string name="save_button">Save</string>
+    <string name="inv_con">"Error: Invalid Contact"</string>
+    <string name="fieldErr">Please fill out all fields</string>
+    <string name="dbErr">Database Connection Error</string>
+    <string name="successMsg">Contact Saved!</string>
+    <string name="timeouterr">Error: Timeout</string>
+    <string name = "okButton">OK</string>
+    <string name="cancelButton">CANCEL</string>
+    <string name="delBtn">Delete</string>
+
+</resources>

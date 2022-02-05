@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fingerpaint_zoo150030</string>
+    <string name="title">Welcome to Finger Paint!</string>
+    <string name="rtext">Red</string>
+    <string name="btext">Blue</string>
+    <string name="gtext">Green</string>
+    <string name="blktext">Black</string>
+    <string name="undoText">Undo</string>
+    <string name="sliderText">Brush Size</string>
+</resources>

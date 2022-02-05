@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">projectPhase1_zoo150030</string>
+    <string name="option1">Add Contact</string>
+    <string name="option2">Import Contacts</string>
+    <string name="option3">Reinitialize Database</string>
+    <string name="title_activity_contact_details">contactDetails</string>
+    <string name="main_title">Contacts</string>
+    <string name="listHeading">Last, First</string>
+    <string name="details_title">Contact Details</string>
+    <string name="new_title">New Contact</string>
+    <string name="fHeader">First Name</string>
+    <string name="lHeader">Last Name</string>
+    <string name="numHeader">Phone Number</string>
+    <string name="DoBHeader">Date of Birth</string>
+    <string name="DofCHeader">Date of First Contact</string>
+    <string name="fHint">John</string>
+    <string name="lHint">Doe</string>
+    <string name="numHint">1112223333</string>
+    <string name="edit_button">Edit</string>
+    <string name="save_button">Save</string>
+    <string name="inv_con">"Error: Invalid Contact"</string>
+    <string name="fieldErr">Please fill out all fields</string>
+    <string name="successMsg">Contact Saved!</string>
+    <string name="timeouterr">Error: Timeout</string>
+    <string name="okButton">OK</string>
+    <string name="cancelButton">CANCEL</string>
+    <string name="delBtn">Delete</string>
+
+    <string name="mapAddr">Map Address</string>
+    <string name="addr">Address</string>
+    <string name="addrHint1">800 W. Campbell Rd.</string>
+    <string name="addrHint2">Apt. 1111</string>
+    <string name="city">City</string>
+    <string name="cityHint">Richardson</string>
+    <string name="state">State</string>
+    <string name="stateHint">TX</string>
+    <string name="zip">Zip Code</string>
+    <string name="zipHint">75080</string>
+
+    <string name="AddrErr">Please add an address to this contact</string>
+    <string name="title_activity_address_locator">Map</string>
+
+</resources>

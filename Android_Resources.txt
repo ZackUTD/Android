@@ -1,0 +1,4 @@
+Android Resources
+
+developer.android.com
+StackOverflow (naturally)

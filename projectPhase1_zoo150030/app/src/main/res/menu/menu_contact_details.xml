@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.projectphase1_zoo150030.contactDetails">
+
+
+    <item
+        android:id="@+id/mapItem"
+        android:orderInCategory="100"
+        android:title="@string/mapAddr"
+        app:showAsAction="never"
+        android:onClick="onMapAddr"
+        />
+
+</menu>
+
